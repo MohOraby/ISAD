@@ -1,0 +1,15 @@
+@media(max-width: 1199px) {
+  .chapter {
+    width: 39%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .date {
+    padding-left: 0;
+  }
+
+  .article {
+    margin-bottom: 300px
+  }
+}
