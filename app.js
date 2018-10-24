@@ -11,8 +11,8 @@ var authRoutes = require("./routes/auth"),
     cityRoutes = require("./routes/city");
 
 
-mongoose.connect("mongodb://localhost/IVSA");
-// mongoose.connect("mongodb://Mohamed:mo7amed@ds115523.mlab.com:15523/ivsa1");
+// mongoose.connect("mongodb://localhost/ISAD");
+mongoose.connect("mongodb://Mohamed:mo7amed@ds259499.mlab.com:59499/isad");
 app.set("view engine", "ejs");
 app.use(express.static("public"));
 app.use(bodyparser.urlencoded({extended: true}));
